@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <label>Километры</label>
+    <input type="text" id="a" placeholder="Километры">
+    <select name="" id="selectOne">
+        <option value="0.000001">миллиметров</option>
+        <option value="0.00001">сантиметров</option>
+        <option value="0.001">метров</option>
+        <option value="0.3640">футов</option>
+    </select>
+    <select name="" id="selectTwo">
+        <option value="1000000">миллиметров</option>
+        <option value="100000">сантиметров</option>
+        <option value="1000">метров</option>
+        <option value="3640">футов</option>
+    </select>
+    <button>Compilate</button>
+    <p class="complation"></p>
+
+    <script>
+        document.querySelector("button").onclick = ()=> {
+            let a = +document.querySelector("#a").value
+            let selectOne = +document.querySelector("#selectOne").value
+            let selectTwo = +document.querySelector("#selectTwo").value
+            document.querySelector(".complation").innerHTML = a * selectOne * selectTwo
+        }
+    </script>
+</body>
+
+</html>

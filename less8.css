@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: rgb(193, 193, 214);
+}
+
+header {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.521);
+}
+
+header .logo {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+    align-items: center;
+}
+
+header nav ul li {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 70px;
+    margin-left: 35px;
+    border-right: 2px solid orange;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+
+header nav ul li .inUl {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    background: red;
+    min-width: 100px;
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.821);
+}
+
+header nav ul .menu_settings:hover .inUl {
+    display: flex;
+}
+
+header nav ul li .inUl li {
+    border-right: none;
+    border-bottom: 2px solid orange;
+    margin-left: 0px;
+    min-width: 200px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li .inUl li:hover {
+    background: gainsboro;
+    border-bottom: 2px solid aqua;
+    color: black;
+}
+
+header nav ul li .menu4{
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+header nav ul .menu3{
+    position: relative;
+
+
+}
+
+header .menu4{
+    display: none;
+    position: absolute;
+    left:200px;
+   background: grey;
+    min-width: 200px;
+   top:0px;
+    
+}
+header nav ul li .menu3:hover .menu4{
+    display: flex;
+}
+header nav ul li .menu5{
+    position: relative;
+}
+header nav ul li .menu6{
+  justify-content: flex-start;
+  flex-direction: column;
+}
+header .menu6{
+    position: absolute;
+    display: none;
+    left: 200px;
+    background:gray;
+    min-width: 150px;
+    top: 0px;
+
+}
+header nav ul li .menu5:hover .menu6{
+    display: flex;
+    
+}
+
+header nav ul li i{
+    margin-left: 10px;
+    color: black;
+}

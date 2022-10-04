@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid .block{
+    color: white;
+}
+.container-fluid .block:hover{
+    color:#ffc600!important;
+
+}
+.block1{
+    color: #ffc600!important;
+}
+.jav{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+.languages .ua {
+    background-color: #ffc600;
+    color: black;
+    text-align:center ;
+    text-decoration: none;
+   
+}
+.languages .ru{
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    padding: 5rem;
+    cursor: pointer;    
+}
+.main-page-header{
+    line-height: 150%;
+}
+
+
+.animation1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   
+  
+}
+.anim{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.animation1 .blo{
+    position: absolute;
+    width: 800px;
+    background-color:#282a35;
+    color: white;
+    opacity:1;
+    
+}
+    
+    
+
+   
+
+
+
+.block2{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:  #f4f4f4;
+}
+
+
+.block2 a{
+    display: block;
+    background: #282a35;
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.block2 a:hover{
+    background-color: #ffc600;
+    color: #282a35;
+}
+
+.block2 i{
+    color: red;
+}
+.block2 a:hover i{
+    color: #282a35;
+}
+.text-end{
+    text-align: right;
+}
+.main-page-news-header{
+    background: #282a35;
+    color: #fff;
+}
+.news-on-main {
+    border: 2px solid #ffc600;
+    cursor: pointer;
+}
+.news-on-main:hover{
+    background-color: #ffc107;
+}
+.news-on-main div{
+    font-size: 1.2rem;
+    font-weight: 700;
+   text-transform: uppercase;
+}
+.block3 .choose-course {
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+  
+}
+
+.choose-course li.active {
+    border: 3px solid #ffc600;
+    background: #ffc600;
+}
+ul.choose-course li {
+    margin-left: 30px;
+    padding: 3px 20px;
+    border-left: 3px solid #ffc600;
+    color: #006298;
+    cursor: pointer;
+}
+.project{
+    width: 100%;
+  
+}
+.project a{
+    text-decoration: none;
+   
+}
+.project .black-hover{
+    background-color: #282a35;
+    
+}
+.white-color{
+    color: white;
+}
+.project .black-hover:hover{
+    background-color: black;
+    
+}
+.black-hover{
+    position: relative;
+}
+
+.palochka{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: #ffc107;
+}
+  
+    
+
+   
+   
+    
+
+
+.block5 button{
+    background-color: #ffc600;
+    color: white;
+    height: 55px;
+    width: 200px;
+    animation: knopka 3s ;
+}
+.block5 button:hover{
+    background-color: #ffc600;
+    color: white;
+}
+ .block5 .btn-warning{
+   
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+   
+    
+}
+@keyframes knopka {
+    0% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@media (max-width:778px){
+    .block3{
+        padding: 50px;
+    }
+
+}
+@media (max-width:556px){
+    .block3{
+        padding: 10px;
+    }
+
+}
+.vybiraem-put{
+    background-color: #282a35;
+    color: white;
+}
+.text-yellow{
+    color: #ffc600;
+}
+.justify-content-around{
+    justify-content: space-around;
+    
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.vybiraem-put a{
+    text-decoration: none;
+    color: white;
+}
+.vybiraem-put1 div{
+    background:#5a5c68 ;
+    font-size: 1.1rem;
+    max-width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid white;
+} 
+.vybiraem-put1 div a{
+    padding: 15px 25px;
+    cursor: pointer;
+    flex: 1 1 auto;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vybiraem-put1 div a:hover{
+    background-color: #ffc107;
+    color: black;
+   
+}
+
+

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #202124;
+}
+.gr{
+    background-color: #3c4043;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+.gr .c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blueviolet;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+   
+    
+   
+}
+.gr .gr1{
+    color: white;
+    font-size: 30px;
+   
+  
+}
+.grid0{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    height: 80vh;
+   
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.grid{
+   
+    width: 30%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(20%,50%));
+    grid-template-rows: 200px 200px 200px ;
+   
+}
+
+.grid>div{
+    border: 2px solid orange;
+
+}
+
+
+
+
+
+
+
+   
+  
+
+
+
+ .grid .gr2{
+    outline: 2px solid #3c4043;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c4043;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid .gr3{
+    outline: 2px solid #3c4043;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c4043;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.grid .gr4{
+    outline: 2px solid #3c4043;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c4043;
+    transform: translate(30%,0%);
+    width:120%;
+   
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ 
+
+
+
+
+ .grid .gr2 .a{
+    background-color: #ea4335;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.grid .c1{
+    background-color: blueviolet;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.grid .a1{
+    background-color: green;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid .gr2, .grid .gr3,.grid .gr4{
+    position: relative;
+
+}
+.grid .gr2 i, .grid .gr3 i, .grid .gr4 i{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gr5{
+    padding: 10px 30px;
+    display:flex;
+    justify-content: space-between;
+
+}
+   
+.gr6{
+    color: white;
+    padding-top: -50px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+
+.gr7{
+
+    background-color: #ea4335;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.gr8{
+    background-color: rgb(81, 79, 79);
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gr9{
+    display: flex;
+}
+
+   
+
+
+   
+
+
+

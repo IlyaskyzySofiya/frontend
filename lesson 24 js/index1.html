@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <div class="block1">
+            <span id="age"></span> <br>
+            <span class="tel"></span> <br>
+            <span class="tel"></span> <br>
+            <span id="city"></span>
+        </div>
+        </div>
+       <script>
+         var name = prompt("Name :")
+         var age  = prompt("Age  :")
+         var tel  = prompt("Tel  :")
+         var homeTel = prompt("Home tel: ")
+         var city = prompt("City : ")
+         document.querySelector("span").textContent = "Name: " + name
+         document.getElementById("age").textContent = "Age :" + age
+         document.getElementsByClassName("tel")[0].textContent = "tel : " + tel
+         document.getElementsByClassName("tel")[1].textContent = "Home tel : " + homeTel
+         document.querySelector("#city").textContent = "City :" + city
+       </script>
+
+        </body>
+        </html>

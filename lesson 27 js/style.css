@@ -1,0 +1,24 @@
+.block ul{
+  list-style: none;
+}
+.block ul a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    line-height:50px; 
+    display: block; 
+
+}
+.block1 ul{
+    list-style: none;
+  }
+.block1 ul a{
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      font-size: 15px;
+      line-height:50px; 
+      display: block; 
+  
+  }

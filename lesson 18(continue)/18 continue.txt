@@ -1,0 +1,38 @@
+1) <div class="mb-3 row justify-content-center">
+                    <div class="col-sm-2"></div>
+                     <div class="col-sm-5">
+                     <label for="exampleDataList" class="form-label">Другой муниципалитет:</label>
+               
+               <input class="form-control form-control-sm " list="datalistOptions" id="exampleDataList" placeholder="">
+               </div>
+               <datalist id="datalistOptions">
+                 <option value="Питер">
+                 </datalist>
+               
+                 <div class="mb-3 row justify-content-center">
+                    
+                    
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Учреждение <span class="color">*</span></label>
+                    <div class="col-sm-5">
+                      <input type="password" class="form-control form-control-sm" id="inputPassword">
+                    </div>
+                    
+                  </div>
+проблема в отступе
+2)<div class="mb-3 row justify-content-center">
+                    <label for="inputPassword" class="col-sm-4 col-form-label">Защитный код <span class="color">*</span></label>
+                    <div class="col-sm-3 ">
+                      <input type="password" class="form-control form-control-sm col4" id="inputPassword"><img src="./number.asp"  class="img1" alt="">
+                    </div>
+                  </div>
+              .col4{
+  margin-left: -205px;
+}
+.img1{
+   width: 100px;
+   height: 20px;
+   margin-left:100px;
+   margin-top:-60px ;
+} 
+
+адаптивность болгондо проблема из-за стиля

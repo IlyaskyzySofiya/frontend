@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid .block{
+    color: white;
+}
+.container-fluid .block:hover{
+    color:#ffc600!important;
+
+}
+.block1{
+    color: #ffc600!important;
+}
+.jav{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+.languages .ua {
+    background-color: #ffc600;
+    color: black;
+    text-align:center ;
+    text-decoration: none;
+   
+}
+.languages .ru{
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    padding: 5rem;
+    cursor: pointer;    
+}
+
+.languages1 .ua1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.languages1 .ru1{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.languages1 .ru1:hover{
+    color: rgb(89, 89, 186);
+    
+}
+.languages1 .ua1 span::before{
+    content: "|";
+
+
+}
+.languages1 .ua1 span::after{
+    content: "|";
+   
+}
+.block2{
+    background-color:#e7e9eb; 
+    padding: 1rem;
+    margin: 10px;
+}
+.block2 .color-black a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+.block2 .color-gray{
+    color: #6c757d;
+}
+.block2 .color-black a:hover{
+    border-bottom: 2px solid black;
+   
+}
+.block2 a:hover .color-gray{
+    border-bottom: none;
+}
+.block3{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+ .row .col-4 .card{
+  display: block;
+   
+}
+table a{
+    color:#212529;
+}
+ .card .card-header{
+    background-color:  #212529;
+}
+.card .card-header .yel{
+    color: #ffc600;
+}
+.card-footer .btn-hov:hover{
+    background-color: #212529 ;
+    color: #ffc600;
+}
+.block5 button{
+    background-color: #ffc600;
+    color: white;
+    height: 55px;
+    width: 200px;
+    animation: knopka 3s ;
+}
+.block5 button:hover{
+    background-color: #ffc600;
+    color: white;
+}
+ .block5 .btn-warning{
+   
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+   
+    
+}
+@keyframes knopka {
+    0% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@media (max-width:778px){
+    .block3{
+        padding: 50px;
+    }
+
+}
+@media (max-width:556px){
+    .block3{
+        padding: 10px;
+    }
+
+}

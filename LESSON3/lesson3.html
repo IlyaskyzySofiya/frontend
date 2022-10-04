@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background: url(./act-ili-sat-11-otlichiy.png);
+            background-repeat: no-repeat; 
+            background-size:cover;
+        }
+        form {
+            width: 500px;
+            height: auto;
+            background: darkcyan;
+        }
+
+        form input {
+            width: 490px;
+            height: 20px;
+            font-size: 15px;
+            background: black;
+            color: green;
+            border-top:2px dashed orange;
+            border-bottom: 2px solid yellow;
+            border-left: 2px dotted blue;
+            border-right: 2px solid white;
+            border-radius: 50px 50px 0px 0px;
+        }
+
+        form input:nth-child(1) {
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <form action="">
+        <input type="text">
+        <input type="text">
+    </form>
+
+       <form action="page2.html" method="post">
+           <label for="name">Enter name</label>
+           <br>
+           <input type="name" name="name1" id="name" placeholder="Enter name" required>
+           <br>
+           <input type="text" name="Text" maxlength="50" placeholder="Enter text" required>
+           <br>
+           <input type="number" name="num" id="" max="100" min="1" value="1" required>
+           <br>
+           <input type="tel" name="tel" placeholder="+996(703) 42 15 21" required>
+           <br>
+           <input type="email" name="email" required>
+           <br>
+           <input type="password" placeholder="enter password" required show="True">
+           <br>
+           <input type="date" name="date" required>
+           <br>
+           <input type="color" name="color" required>
+           <br>
+           <input type="radio" name="pol" checked>M
+           <input type="radio" name="pol"> Ж
+           <br>
+           <input type="checkbox" name="" name="ch1"id="ch1"> <label for="ch1">324</label>
+           <br>
+           <input type="checkbox" name="" name="ch2" id="ch2"> <label for="ch2">24</label>
+           <br>
+           <input type="checkbox" name="" name="ch3" id="ch3"> <label for="ch3">3244</label>
+           <br>
+           <input type="file" name="file" required>
+           <br>
+            <select name="" id="">
+                <option value="0">Выберите один из вопрос</option>
+                <option value="1">Как тебя завут</option>
+                <option value="2">Сколько тебя лет</option>
+                <option value="3">Я кто</option>
+            </select>
+            <br>
+            <textarea name="textarea" id="" cols="50" rows="20" placeholder="Коментарий"></textarea>
+           <br>
+           <input type="reset" value="Очистить">
+           <br>
+           <input type="submit" value="Войти">
+
+
+
+           <a href="http://" target="_blank" rel="noopener noreferrer"></a> 
+           <img src="./act-ili-sat-11-otlichiy.png"  alt="">
+
+           <input type="radio" name="rd" checked id="y"> <label for="y">a</label> <br>
+           <input type="radio" name="rd" id="">b <br>
+           <input type="radio" name="rd" id="">c <br>
+           <input type="radio" name="rd" id="">d <br>
+       </form>
+
+       <script>
+        
+        </script>
+</body>
+</html>

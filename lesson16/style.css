@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.img{
+    max-width: 100%;
+   
+}
+.img_dost_border{
+   
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    padding: 15px;
+
+}
+.tc-container{
+    position: relative;
+}
+.tc-container img{
+    width: 100%;
+    height: 100%;
+}
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+
+}
+.top-img:hover{
+    opacity: 1;
+    
+}
+.but{
+    position: relative;
+}
+.but1{
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    text-align:center ;
+    border-radius:3rem;
+    border: none;
+    left: 0px;
+    top: -250px;
+    color:white ;
+    background-color: rgba(0,84,166,.3);;
+
+  
+}
+.col-xl-2 {
+    position: relative;
+}
+.icon{
+    position: absolute;
+    right: 15px;
+    top:9px;
+
+
+
+
+}
+.icon.fa-heart-o{
+    display: block;
+}
+ .icon:hover .fa-heart-o{
+    display: none;
+}
+.icon .fa-heart{
+    display: none;
+
+}
+.icon:hover .fa-heart{
+    display: block;
+    color: red;
+}
+.price{ 
+    display: flex;
+    margin: 10px;
+   
+}
+.price .ot{
+    margin: 10px;
+}
+.price .ot1{
+    margin-top: 35px;
+    margin-left:-128px;
+}
+.but2{
+    position: relative;
+   
+}
+.but2 .but3{
+    position: absolute;
+    right:-15px;
+    top: 90px;
+    width: 170px;
+    height:50px ;
+    background-color: #ff0037;
+   
+}
+.but2 .but3 .but4{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container .but2{
+    display:none;
+    
+}
+
+.img_dost_border:hover .but2{
+    display: block;
+    
+}

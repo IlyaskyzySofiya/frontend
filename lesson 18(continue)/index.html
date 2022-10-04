@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class=" text-center text-bg-success">Регистрация</h1>
+        <form class="needs-validation form-control was-validated" novalidate="">
+           
+
+
+            <div class="mb-3 row justify-content-center">
+
+               
+                <label for="validationCustom01" class="col-sm-2 col-2 col-form-label ">Ф.И.О <span class="color">*</span></label>
+                <div class="col-sm-5 col-10">
+                    <input type="text" class="form-control form-control-sm " id="validationCustom01" required>
+                </div>
+            </div>
+           
+            <div class="mb-3 row justify-content-center">
+                <label for="inputPassword" class="col-sm-2 col-2 col-form-label">Логин <span class="color">*</span></label>
+                <div class="col-sm-5 col-10">
+                    <input type="text" class="form-control form-control-sm" id="" required>
+                </div>
+            </div>
+
+            <div class="mb-3 row justify-content-center">
+                <label for="inputPassword" class="col-sm-2 col-2 col-form-label">Пароль <span class="color">*</span></label>
+                <div class="col-sm-5 col-10">
+                    <input type="password" class="form-control form-control-sm" id="inputPassword" required>
+                </div>
+            </div>
+
+            <div class="mb-3 row justify-content-center">
+                <label for="inputPassword" class="col-sm-2 col-2 col-form-label">Повтор пароля <span
+                        class="color">*</span></label>
+                <div class="col-sm-5 col-10">
+                    <input type="password" class="form-control form-control-sm" id="inputPassword" required>
+                </div>
+            </div>
+            <div class="mb-3 row justify-content-center">
+                <label for="exampleDataList" class="form-label col-2 col-sm-2">E-mail</label>
+                <div class="col-sm-5 col-10">
+                    <input class="form-control form-control-sm " list="datalistOptions" id="exampleDataList"
+                        placeholder="" required>
+                </div>
+                <datalist id="datalistOptions">
+                    <option value="ilyaskyzy@gmail.com">
+                </datalist>
+            </div>
+            <div class="mb-3 row justify-content-center">
+                <label for="exampleDataList" class="form-label col-2 col-sm-2">Город</label>
+                <div class="col-sm-5 col-10">
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>не определен</option>
+                        <option value="1">Москва</option>
+                        <option value="2">Мурманск</option>
+                        <option value="3">Навашино</option>
+                    </select>
+                </div>
+                <div class="mb-3 row justify-content-center">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5 col-10">
+                        <label for="exampleDataList" class="form-label col-2">Другой город</label>
+
+                        <input class="form-control form-control-sm " list="datalistOptions" id="exampleDataList"
+                            placeholder="" required>
+                    </div>
+                    <datalist id="datalistOptions">
+                        <option value="Питер">
+                    </datalist>
+
+                </div>
+
+            </div>
+            <div class="mb-3 row justify-content-center">
+                <label for="exampleDataList" class="form-label col-4  col-sm-2">Муниципалитет</label>
+                <div class="col-sm-5 col-8">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>нет в списке</option>
+                        <option value="1">Москва</option>
+                        <option value="2">Мурманск</option>
+                        <option value="3">Навашино</option>
+                    </select>
+                </div>
+
+                <div class="mb-3 row justify-content-center">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5">
+                        <label for="exampleDataList" class="form-label">Другой муниципалитет:</label>
+
+                        <input class="form-control form-control-sm " list="datalistOptions" id="exampleDataList"
+                            placeholder="">
+                    </div>
+                    <datalist id="datalistOptions">
+                        <option value="Питер">
+                    </datalist>
+                   
+
+                    <div class="mb-3 p-4 row justify-content-center">
+
+
+                        <label for="inputPassword" class="col-sm-2  col-3 col-form-label">Учреждение <span
+                                class="color">*</span></label>
+                        <div class="col-sm-5 col-9">
+                            <input type="password" class="form-control form-control-sm" id="inputPassword">
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-3 row justify-content-center">
+                        <label for="inputPassword" class="col-sm-2 col-3 col-form-label">Класс <span
+                                class="color">*</span></label>
+                        <div class="col-sm-5 col-9">
+                            <input type="password" class="form-control form-control-sm" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row justify-content-center">
+                        <label for="inputPassword" class="col-sm-2 col-3 col-form-label">Должность <span
+                                class="color">*</span></label>
+                        <div class="col-sm-5 col-9">
+                            <input type="password" class="form-control form-control-sm" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row justify-content-center">
+                        <label for="inputPassword" class="col-sm-2 col-3 col-form-label">Дата рождения (ДД.ММ.ГГГГ) <span
+                                class="color">*</span></label>
+                        <div class="col-sm-5 col-9">
+                            <input type="password" class="form-control form-control-sm" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row justify-content-center">
+                        <label for="inputPassword" class="col-sm-2 col-3 col-form-label">Защитный код <span
+                                class="color">*</span></label>
+                        <div class="col-sm-5 col-9 ">
+                            <div class="row">
+                                <div class="col-sm-9 col-9">
+                            <input type="password" class="form-control form-control-sm " id="inputPassword">
+                            </div>
+                            <div class="col-sm-3 col-3">
+                                <img
+                                src="./number.asp" class="img1 " alt="">
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row justify-content-center">
+
+
+                        <div class="col-sm-3"> 
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> с
+                                правилами ознакомлен
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    
+               
+                    <div class="but1"> 
+                        <button type="submit" class="btn btn-outline-secondary" >Регистрация</button>
+                       
+                </div>
+   
+        </form>
+       
+    </div>
+    
+
+    <script src="../bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

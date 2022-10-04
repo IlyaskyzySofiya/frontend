@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    border:1px solid white;
+}
+table tr{
+    transition: 1s;
+}
+.tab{
+    background-color: rgb(30, 222, 30);
+    color: white;
+    font-size: 25;
+}
+.tab1{
+    background-color: rgb(110, 171, 110);
+    color: black;
+}
+.tab2{
+    background-color: rgb(154, 190, 154);
+}
+table tr:hover{
+    background-color: rgb(240, 206, 212);
+    color: rgb(182, 182, 224);
+    cursor: pointer;
+    transition: 0.1s;
+}

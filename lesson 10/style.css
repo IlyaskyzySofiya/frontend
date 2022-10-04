@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing :border-box;
+}
+header{
+    padding: 10px;
+    background-color: aqua;
+    display: flex;
+
+}
+header .str{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    
+}
+
+ header .str span{
+    display: block;
+    position: relative;
+    background-color: green;
+  
+   
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+   
+}
+  header .str span::before{
+    content:"";
+    position:absolute;
+    width:5px;
+    height:5px;
+    background-color:green;
+    left:-20px;
+    display:block ;
+    border-radius: 50%;
+
+  }
+  header .str span::after{
+    content:"";
+    position:absolute;
+    width:5px;
+    height:5px;
+    background-color:green;
+    left:20px;
+    display:block ;
+    border-radius: 50%;
+
+
+  }
+
+  header .str:hover span::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    
+    transition: 0.8s;
+    background-color: antiquewhite;
+  
+  }
+  header .str:hover span::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    background-color: antiquewhite;
+    
+    transition: 0.8s;
+  
+  }
+  header .str:hover{
+    background-color: blue;
+    border-radius: 50%;
+    transition: 0.8s;
+
+  }
+    
+    
+ 

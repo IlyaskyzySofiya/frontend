@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+   
+    
+}
+
+.container{
+    background-color: rgb(217, 217, 23);
+    width: 180px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius:50%;
+    position: relative;
+
+   
+  
+    
+   
+}
+.container .block1{
+    position: absolute;
+    right:45px;
+    top: 35px;
+    background-color: white;
+    height: 25px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.container .block2{
+    position: absolute;
+    left: 45px;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 25px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.container .block1 .eye1{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   
+   
+
+}
+.container .block2 .eye2{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   
+    
+
+}
+.container1{
+    position: relative;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.container1 .mouth{
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    
+    top:130px;
+}
+
+.container1{
+    position: relative;
+}
+.container1:hover .mouth{
+    position: absolute;
+    
+    width:90px;
+    height: 30px;
+    border: 1px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+  
+}
+
+ .container:hover .block1{
+  
+    justify-content: flex-start;
+    
+}
+ .container:hover .block2 {
+
+   justify-content: flex-end;
+
+}
+.container .block1:hover{
+    justify-content: flex-end;
+}
+.container .block2:hover{
+    justify-content: flex-start;
+}

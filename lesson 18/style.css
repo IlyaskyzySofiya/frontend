@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.phone{
+    position: relative;
+    width:50%;
+   
+    
+}
+.phone1{
+    position: absolute;
+    left: 155px;
+    top: 25px;
+    width: 250px;
+    height: 541px;
+    animation: instagram 8s infinite;
+    
+}
+@keyframes instagram{
+    0%{ 
+      background:url(./a4fd825e3d49.png) ;
+
+    }
+    25%{
+        background: url(./fdfe239b7c9f.png);
+        
+    }
+    50%{
+        background: url(./4d62acb667fb.png);
+    }
+    75%{
+        background: url(./94edb770accf.png);
+    }
+    100%{
+        background:url(./a4fd825e3d49.png) ; 
+    }
+}
+body{
+    background-color: white;
+}
+.container{
+    margin-top: 20px;
+}
+.right-column{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 40px;
+}
+.instagram{
+    margin: 15px;
+    
+}
+.form-group{
+    margin-bottom: 6px;
+}
+.form-control{
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+
+}
+
+
+.but{
+    width: 266px;
+    height: 35px;
+}
+.btn{
+    margin: 12px auto;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.or{
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+}
+.or::before{
+    content: '';
+    background:#efefef;
+    display:block;
+    height:2px;
+    width:110px;
+    position: relative;
+    top: 11px;
+    
+}
+.or::after{
+    content: '';
+    background:#efefef;
+    display:block;
+    height:2px;
+    width:110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+    
+}
+.but1{
+    color: #385185;
+    
+}
+.text{
+    line-height: 18px;
+    font-size: 14px;
+    color:#999;
+    margin:5px 20px ;
+}
+.right-column1{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width:350px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.right-column1 a{
+    text-decoration: none;
+ 
+    
+}
+.img{
+    margin-left: 50px;
+}
+.text1{
+    margin-left: 50px;
+}
+.img2{
+    height: 40px;
+    width: 136px;
+
+}
+.img3{
+    height: 40px;
+    width: 136px;
+}
+@media (max-width:994px){
+    .container .phone{
+        right:90px;
+    }
+
+}
+
+@media (max-width:875px){
+    .container .row .col-md-6 .phone{
+
+        display: none;
+
+
+    }
+    .container .row .col1{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container .row {
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+    }
+
+}
