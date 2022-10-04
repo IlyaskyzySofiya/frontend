@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -54,4 +55,62 @@ input{
 .con ul li a{
     color: white;
     text-decoration: none;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(.jpg) no-repeat;
+    background-size: cover;
+  
+}
+
+
+
+.head{
+    background: black;
+    min-height: 25px;
+}
+
+.head ul li{
+    list-style: none;
+    float:left;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.head ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+p{
+    font-size: 70px;
+    margin-top:200px ;
+    text-align: center;
+    color: white;
+}
+input{
+   margin-left:517px;
+   height: 30px;
+   width: 550px;
+ 
+
+}
+.con ul li{
+    list-style: none;
+    float: left;
+    margin-left:20px;
+    margin-top: 20px;
+ 
+
+
+}
+.con ul li a{
+    color: white;
+    text-decoration: none;
+>>>>>>> 3b4010e5e9434c8e492c74c4042d0b56a80a7235
 }

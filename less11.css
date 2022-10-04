@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -32,3 +33,39 @@
     }
 }
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    width: 600px;
+    height: 600px;
+  
+
+}
+
+
+.block img:hover{
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+    animation: spinner 10s;
+    
+  
+}
+
+
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(3600deg);
+
+    }
+}
+
+>>>>>>> 3b4010e5e9434c8e492c74c4042d0b56a80a7235

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -204,4 +205,212 @@ h2::before{
     top: -5px
 
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: teal;
+}
+
+header {
+    padding: 10px  15px;
+    background: rgb(14, 185, 207);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .log {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+}
+
+header .menu span {
+    position: relative;
+    top: -10px;
+    width: 40px;
+    height: 2px;
+    background: black;
+    transition: 0.8s;
+}
+
+
+
+header .menu span::before {
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: black;
+    top: 10px;
+    transition: 0.8s;
+}
+
+header .menu span::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: black;
+    top: 20px;
+    transition: 0.8s;
+}
+
+
+header .menu:hover span {
+    transition: 0.8s;
+    top: 0px;
+    transform: rotate(45deg);
+}
+
+header .menu:hover span::before {
+    transition: 0.8s;
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: black;
+    top: 0px;
+    opacity: 0;
+}
+
+header .menu:hover span::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: black;
+    top: 0px;
+    transition: 0.8s;
+    transform: rotate(-90deg);
+}
+
+
+header .categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+
+header .categoria span {
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    transition: 0.8s;
+}
+
+header .categoria span::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    transition: 0.8s;
+}
+
+header .categoria span::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+}
+
+header .categoria:hover{
+    transition: 0.8s;
+    background: rgba(0, 0, 0, 0.211);
+}
+
+header .categoria:hover span {
+    transition: 0.8s;
+    background: white;
+}
+
+header .categoria:hover span::before {
+    background: white;
+    transition: 0.8s;
+}
+
+header .categoria:hover span::after {
+    background: white;
+    transition: 0.8s;
+}
+
+h1 {
+    margin-left: 34%;
+    width: 600px;
+    min-width: 150px;
+    
+    position: relative;
+    padding: 10px;
+}
+
+h1::before {
+    left: -5px;
+  
+    
+    position: absolute;
+    content: url(https://papik.pro/klipart/20481-galochka-klipart-67-foto.html);
+ 
+    width: 10px;
+    height: 10px;
+   
+}
+
+h2{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 10px;
+
+}
+h2::before{
+    left: 0px;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height:30px;
+    background-image: url(https://emojio.ru/images/apple-b/274c.png);
+    background-size: cover;
+    top: -5px;
+   
+}
+
+.bef::before{
+    left: 0px;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height:30px;
+    background-image: url(https://dad-time.ru/wp-content/uploads/2021/02/%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F-%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-png-6.png);
+    background-size: cover;
+    top: -5px
+
+
+>>>>>>> 3b4010e5e9434c8e492c74c4042d0b56a80a7235
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -37,4 +38,45 @@ section div {
 }
 .raz7{
     z-index: 1;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section div {
+    position:sticky;
+    top: 0px;
+    width: 100%;
+    background: rgb(0, 111, 139);
+    color: white;
+    padding: 20px 20px;
+    margin-top: 30px;
+    min-height: 100px;
+}
+.raz{
+    display: flex;
+    justify-content: space-between;
+}
+.raz1{
+    background-color: blanchedalmond;
+}
+.raz2{
+    background-color: aquamarine;
+}
+.raz3{
+    z-index: 5;
+}
+.raz4{
+    z-index: 4;
+}
+.raz5{
+    z-index: 3;
+}
+.raz6{
+    z-index: 2;
+}
+.raz7{
+    z-index: 1;
+>>>>>>> 3b4010e5e9434c8e492c74c4042d0b56a80a7235
 }
